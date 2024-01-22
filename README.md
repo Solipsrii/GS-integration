@@ -16,7 +16,7 @@ After cloning repo, to download the dependencies, type:
 
 Followed by:
 
-<code>nodemon server.js</code>
+<code>node server.js</code>
 
 And then access:
 

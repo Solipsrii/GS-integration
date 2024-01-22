@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=s, initial-scale=1.0">
+    <link rel="stylesheet" href="css/mystyles.css">
+
+    <title>Google sheets: img loader</title>
+</head>
+
+<body>
+    <h1 class="centerS">Who doesn't like goofy animal pictures?</h1>
+
+    <div class="alignimg">
+        <% if (imageArray !=null && imageArray.length > 0){ %>
+             <%  for(i=0; i<imageArray.length; i++){ %>
+                    <img class="padding" src=<%=imageArray[i]%> width="250" height="250"> 
+            <% }} else { %>
+                ERROR: no images found?
+            <% } %>
+    </div>
+
+</body>
+</html> 

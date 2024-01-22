@@ -1,0 +1,15 @@
+
+h1.centerS{
+ text-align: center;
+ color: salmon;
+}
+
+.alignimg {
+    text-align: center;
+    background-color: salmon;
+}
+.padding{
+    padding-left: 0.25%;
+    padding-right: 0.25%;
+}
+

@@ -7,7 +7,7 @@ This project makes use of API access, token authorization-access, and getting da
 
 The end result is a short series of animal pictures, stored in the google-sheet file as permanent links.
 
-P.S: Used a throwaway google account, so while the API-key is exposed, and thus is a bad practice -- won't lead to much.
+P.S: Used a throwaway google account, so while the API-key is exposed, and thus is a bad practice -- it won't really amount to much.
 
 <h1>How to run:</h1>
 Req: npm/node installed.
